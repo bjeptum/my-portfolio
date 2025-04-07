@@ -7,32 +7,40 @@
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <header>
-    <h1>Jeptum Brenda</h1>
-    <p class="subtitle">Software Engineer | Full-Stack & Cloud Enthusiast</p>
-    <nav>
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
 
-  <section id="hero">
-    <h2>Hello there 👋</h2>
-    <p>I'm Jeptum Brenda, a passionate software engineer with experience in full-stack development.</p>
-     <a href="Jeptum_Brenda_CV.pdf" download class="cv-btn">📄 Download My CV</a>
+  <!-- Intro Section -->
+  <section id="intro-section">
+    <div class="intro-left">
+      <img src="assets/prof_pic.jpeg" alt="Profile picture of Jeptum Brenda" class="profile-pic">
+      <h2>Hello there 👋</h2>
+      <p>I'm a passionate software engineer with experience in full-stack development.</p>
+    </div>
+    <div class="intro-right">
+      <header>
+        <h1>Jeptum Brenda</h1>
+        <p class="subtitle">Software Engineer | Full-Stack & Cloud Enthusiast</p>
+        <nav>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+    </div>
   </section>
-
+  
+  <!-- About Section -->
   <section id="about">
     <h2>About Me</h2>
     <p>I specialize in building scalable applications using modern web technologies.</p>
     <p>With experience in the insurance industry and a strong interest in cloud infrastructure, I'm focused on creating solutions that are both efficient and user-friendly.</p>
     <p>Currently based in Nairobi, Kenya, I love using technology to empower others and solve real-world challenges.</p>
+    <a href="Jeptum_Brenda_CV.pdf" download class="cv-btn">📄 Download My CV</a>
   </section>
-  
-  <section id=" skills">
+
+  <!-- Skills Section -->
+  <section id="skills">
     <h2>Skills</h2>
     <ul>
       <li>Python</li>
@@ -43,11 +51,15 @@
     </ul>
   </section>
 
+  <!-- Projects Section -->
   <section id="projects">
     <h2>Projects</h2>
     <div class="project">
       <h2>Health and Fitness Tracker</h2>
       <p>A web application that allows users to track their fitness goals, log workouts, and monitor progress over time.</p>
+      <img src="assets/health_fitness_tracker.jpeg" alt="Health and Fitness Tracker Screenshot">
+      <div class="tags-container">
+        <h3 class="tags-title">Tech Stack</h3>
       <div class="tags">
         <span class="tag">React</span>
         <span class="tag">Node.js</span>
@@ -61,6 +73,7 @@
     </div>
   </section>
 
+  <!-- Contact Section -->
   <section id="contact">
     <h2>Contact Me</h2>
     <form id="contactForm">
@@ -72,9 +85,10 @@
     <p id="responseMsg"></p>
   </section>
 
-  <script src="script.js"></script>
   <footer>
     <p>&copy; 2025 Jeptum Brenda. All rights reserved.</p>
- </footer>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
