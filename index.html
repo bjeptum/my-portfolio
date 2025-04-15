@@ -22,7 +22,7 @@
           <ul>
             <li><a href="#about">About</a></li>
             <li><a href="#projects">Projects</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </nav>
       </header>
@@ -50,8 +50,8 @@
       <li>Databases: MongoDB, SQL</li>
       <li>Tools: Git, Docker</li>
       <li>Software Development: Full-Stack Development, API Design, Agile Methodologies</li>
-      <li>Data & Analytics: Data Modeling, Statistical Analysis, Financial Forecasting</li>
-      <li>Other: Project Management, Strategic Planning, Cross-Functional Collaboration</li>
+      <li>Data & Analytics: Data Modeling, Statistical Analysis, Financial Forecasting, Data Cleaning/Validation, Excel/Google Sheets(Advanced Formulas, PivotTables,MAcros)</li>
+      <li>Other: Project Management, Strategic Planning, Cross-Functional Collaboration, Process Automation, CMS Familiarity</li>
     </ul>
   </section>
 
@@ -87,12 +87,27 @@
       <button type="submit">Send</button>
     </form>
     <p id="responseMsg"></p>
+    
+    <div class="contact-info">
+      <h3>Contact Details</h3>
+      <p>Email: <a href:"mailto:brendajeptum@gmail.com">brendajeptum@gmail.com</a></p>
+      <p>Phone: <a href:"tel:+254 706 103274">+254 706 103274</a></p>
+      <p>Location: Nairobi, Kenya</p>
+    </div>
   </section>
 
   <footer>
     <p>&copy; 2025 Jeptum Brenda. All rights reserved.</p>
   </footer>
 
-  <script src="script.js"></script>
+  <!-- EmailJS SDK -->
+   <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+   <script>
+   (function(){
+    emailjs.init("Qd-yS5Cv6tSXQaPDs");
+    })();
+    </script>
+    
+    <script src="script.js"></script>
 </body>
 </html>
